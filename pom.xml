@@ -35,6 +35,7 @@
         <artifactId>guava</artifactId>
         <version>31.0.1-jre</version>
     </dependency> -->
+   <!-- -->
 	</dependencies>
 	<build>
 		<plugins>
@@ -45,7 +46,16 @@
 				<version>2.19.1</version>
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					
+					<systemPropertyVariables>
+					<browser>${Browser}</browser>
+					
+					</systemPropertyVariables>
 				</configuration>
+				
 			</plugin>
 
 		</plugins>

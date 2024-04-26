@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-26T13:54:26 IST" name="Suite" finished-at="2024-04-26T13:54:43 IST" duration-ms="17801">
+  <suite started-at="2024-04-26T17:40:49 IST" name="Default suite" finished-at="2024-04-26T17:41:08 IST" duration-ms="19751">
     <groups>
     </groups>
-    <test started-at="2024-04-26T13:54:26 IST" name="Test" finished-at="2024-04-26T13:54:43 IST" duration-ms="17801">
+    <test started-at="2024-04-26T17:40:49 IST" name="Default test" finished-at="2024-04-26T17:41:08 IST" duration-ms="19751">
       <class name="mavenforjenkins.UITest">
-        <test-method signature="startBrowser()[pri:0, instance:mavenforjenkins.UITest@27f981c6]" started-at="2024-04-26T13:54:26 IST" name="startBrowser" finished-at="2024-04-26T13:54:43 IST" duration-ms="17743" status="PASS">
+        <test-method signature="startBrowser()[pri:0, instance:mavenforjenkins.UITest@27f981c6]" started-at="2024-04-26T17:40:49 IST" name="startBrowser" finished-at="2024-04-26T17:41:08 IST" duration-ms="19671" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
       </class> <!-- mavenforjenkins.UITest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
